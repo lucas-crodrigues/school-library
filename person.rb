@@ -1,4 +1,6 @@
 require './nameable'
+require './capitalize_dec'
+require './trimmer_dec'
 
 class Person < Nameable
   attr_accessor :name, :age
@@ -27,4 +29,9 @@ class Person < Nameable
   end
 end
 
-puts Person.new(14, 'Lucas').can_use_services?
+person = Person.new(22, 'maximilianus')
+puts person.correct_name
+capitalized_person = CapitalizeDecorator.new(person)
+puts capitalized_person.correct_name
+capitalized_trimmed_person = TrimmerDecorator.new(capitalized_person)
+puts capitalized_trimmed_person.correct_name
