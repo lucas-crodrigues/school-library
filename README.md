@@ -22,15 +22,15 @@
 - `cd school-library`
 - Run `ruby *.rb`
 
-  ## Authors
+## Authors
 
 👤 **Lucas Costa Rodrigues**
 
-GitHub: [@lucas-crodrigues](https://github.com/lucas-crodrigues)
+- GitHub: [@lucas-crodrigues](https://github.com/lucas-crodrigues)
 
-Twitter: [@lcrodrigues58](https://twitter.com/lcrodrigues58)
+- Twitter: [@lcrodrigues58](https://twitter.com/lcrodrigues58)
 
-LinkedIn: [Lucas Costa Rodrigues](https://www.linkedin.com/in/lucascostarodrigues/)
+- LinkedIn: [Lucas Costa Rodrigues](https://www.linkedin.com/in/lucascostarodrigues/)
 
 
 ## 🤝 Contributing
