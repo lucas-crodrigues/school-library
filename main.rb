@@ -1,5 +1,10 @@
 require './app'
 require './menu'
+require 'json'
+
+file = File.read('rentals.json')
+data_hash = JSON.parse(file)
+puts data_hash['rentals']
 
 def main
   menu = Menu.new
@@ -9,3 +14,5 @@ def main
 end
 
 main
+
+file.close

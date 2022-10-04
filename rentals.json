@@ -1,0 +1,30 @@
+{
+    "rental": [
+        {
+          "date": "2019-01-01",
+          "book":{
+              "title": "The Hobbit",
+              "author": "J.R.R. Tolkien"
+            },
+          "user": {
+              "id": 1,
+              "name": "John Doe",
+              "age": 30,
+              "type": "Teacher"
+            }
+
+        },
+        {
+          "date": "2020-01-01",
+          "book":{
+              "title": "The lord of the rings",
+              "author": "J.R.R. Tolkien"
+            },
+          "user": {
+              "id": 2,
+              "name": "Lucas Rodrigues",
+              "age": 20,
+              "type": "Student"
+            }
+    }]
+}
