@@ -6,6 +6,8 @@ require './student'
 require './teacher'
 
 class App
+  attr_accessor :people, :books, :rentals
+
   def initialize
     @people = []
     @books = []
@@ -35,8 +37,8 @@ class App
     case person_type
     when 1
       print 'Has parent permission? [Y/N]: '
-      permission = gets[0]
-      permission = (permission == ('Y' || 'y'))
+      permission = gets[0].capitalize
+      permission = (permission == 'Y')
       @people << Student.new('Unknown', age, name, permission)
     when 2
       print 'Specialization: '
