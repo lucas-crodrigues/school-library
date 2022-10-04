@@ -32,6 +32,13 @@
 
 - LinkedIn: [Lucas Costa Rodrigues](https://www.linkedin.com/in/lucascostarodrigues/)
 
+👤 **Nimrod Acosta**
+
+- GitHub: [nimplay](https://github.com/nimplay)
+
+- Twitter: [NimrodAcosta](https://twitter.com/NimrodAcosta)
+
+- LinkedIn: [nimrod-acosta](https://www.linkedin.com/in/nimrod-acosta-734330169/)
 
 ## 🤝 Contributing
 
@@ -44,7 +51,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Microverse](https://github.com/microverseinc) team. <br>
+- [Microverse](https://github.com/microverseinc) team.
+- Coding Partners.
+- Code Reviewers.
 
 ## 📝 License
 
