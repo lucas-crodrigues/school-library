@@ -25,7 +25,7 @@ class Menu
       when 4 then app.create_book
       when 5 then app.create_rental
       when 6 then app.list_rentals
-      when 7 then 
+      when 7
         save_data(app)
         break
       else
