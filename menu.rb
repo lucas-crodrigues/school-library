@@ -1,3 +1,6 @@
+require './data_save'
+require './data_load'
+
 class Menu
   def menu
     puts "\nPlease choose an option by entering a number:\n\n"
@@ -11,6 +14,7 @@ class Menu
   end
 
   def print_menu(app) # rubocop:disable Metrics/CyclomaticComplexity
+    load_data(app)
     loop do
       menu
       input = gets.chomp.to_i
@@ -21,7 +25,9 @@ class Menu
       when 4 then app.create_book
       when 5 then app.create_rental
       when 6 then app.list_rentals
-      when 7 then break
+      when 7 then 
+        save_data(app)
+        break
       else
         puts 'Please enter a valid option between 1 to 7'
       end
