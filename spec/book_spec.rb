@@ -1,7 +1,11 @@
 require_relative '../book'
 
-describe 'Book object' do
-    context 'should create an instance of Book class' do
-   book = Rental.new(10-5-2020, "Hobbit", "Jhon")
+describe 'Book' do
+  context 'should create an instance of Book class' do
+    book = Book.new('Hobbit', 'Jhon')
+
+    it 'takes two parameters and returns a Book object' do
+      expect(book.class) == Book
+    end
   end
 end
