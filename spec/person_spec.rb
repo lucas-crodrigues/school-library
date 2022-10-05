@@ -14,19 +14,19 @@ describe 'Person' do
     end
   end
 
-    context 'should create an instance of Person class' do
-      peter = Person.new(13, 'Peter', false)
-      it 'Correct name' do
-        expect(peter.correct_name).to eq 'Peter'
-      end
-
-      it 'Use Service' do
-        expect(peter.can_use_services?).to eq false
-      end
-
-      it 'Use Service' do
-        peter.age = 20
-        expect(peter.can_use_services?).to eq true
-      end
+  context 'should create an instance of Person class' do
+    peter = Person.new(13, 'Peter', false)
+    it 'Correct name' do
+      expect(peter.correct_name).to eq 'Peter'
     end
+
+    it 'Use Service' do
+      expect(peter.can_use_services?).to eq false
+    end
+
+    it 'Use Service' do
+      peter.age = 20
+      expect(peter.can_use_services?).to eq true
+    end
+  end
 end

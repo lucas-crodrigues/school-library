@@ -10,10 +10,10 @@ describe 'Student' do
     @student = Student.new(@label, @age, @name, @parent_permission)
     @classroom = Classroom.new(@label)
   end
-    it 'Paly hooky' do
-      expect(@student.paly_hooky).to eq "¯\(ツ)/¯"
-    end
-    it 'Classroom' do
-      expect(@classroom).to be_an_instance_of Classroom
-    end
+  it 'Paly hooky' do
+    expect(@student.paly_hooky).to eq "¯\(ツ)/¯"
+  end
+  it 'Classroom' do
+    expect(@classroom).to be_an_instance_of Classroom
+  end
 end
