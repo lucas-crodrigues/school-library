@@ -1,1 +1,16 @@
-[{"date":"22/02/2022","book":0,"book_title":"The Lord of the Rings","person":0,"person_name":"Lucas"},{"date":"05/07/2022","book":1,"book_title":"The Return of the King","person":2,"person_name":"Nimrod"}]
+[
+  {
+    "date": "22/02/2022",
+    "book": 0,
+    "book_title": "The Lord of the Rings",
+    "person": 0,
+    "person_name": "Lucas"
+  },
+  {
+    "date": "05/07/2022",
+    "book": 1,
+    "book_title": "The Return of the King",
+    "person": 2,
+    "person_name": "Nimrod"
+  }
+]

@@ -17,7 +17,7 @@ def save_people(app)
       people.push(teacher)
     end
   end
-  File.write('people.json', "#{JSON.generate(people)}\n")
+  File.write('people.json', "#{JSON.pretty_generate(people)}\n")
 end
 
 def save_books(app)
@@ -26,7 +26,7 @@ def save_books(app)
     book = { title: book.title, author: book.author }
     books.push(book)
   end
-  File.write('books.json', "#{JSON.generate(books)}\n")
+  File.write('books.json', "#{JSON.pretty_generate(books)}\n")
 end
 
 def save_rentals(app)
@@ -36,5 +36,5 @@ def save_rentals(app)
                person: app.people.index(rental.person), person_name: rental.person.name }
     rentals.push(rental)
   end
-  File.write('rentals.json', "#{JSON.generate(rentals)}\n")
+  File.write('rentals.json', "#{JSON.pretty_generate(rentals)}\n")
 end

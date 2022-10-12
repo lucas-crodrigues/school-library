@@ -1,1 +1,10 @@
-[{"title":"The Lord of the Rings","author":"J.R.R. Tolkien"},{"title":"The Return of the King","author":"J.R.R. Tolkien"}]
+[
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien"
+  },
+  {
+    "title": "The Return of the King",
+    "author": "J.R.R. Tolkien"
+  }
+]

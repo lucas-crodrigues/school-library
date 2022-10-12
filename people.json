@@ -1,1 +1,68 @@
-[{"name":"Lucas","age":15,"permission":{"parent_permission":{"parent_permission":{"parent_permission":{"parent_permission":{"parent_permission":true}}}}},"type":"Student"},{"name":"Rodrigues","age":68,"specialization":"Economics","type":"Teacher"},{"name":"Nimrod","age":14,"permission":{"parent_permission":{"parent_permission":{"parent_permission":false}}},"type":"Student"},{"name":"Walter","age":56,"specialization":"Chemistry","type":"Teacher"},{"name":"Billy","age":9,"permission":{"parent_permission":false},"type":"Student"}]
+[
+  {
+    "name": "Lucas",
+    "age": 15,
+    "permission": {
+      "parent_permission": {
+        "parent_permission": {
+          "parent_permission": {
+            "parent_permission": {
+              "parent_permission": {
+                "parent_permission": {
+                  "parent_permission": {
+                    "parent_permission": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "type": "Student"
+  },
+  {
+    "name": "Rodrigues",
+    "age": 68,
+    "specialization": "Economics",
+    "type": "Teacher"
+  },
+  {
+    "name": "Nimrod",
+    "age": 14,
+    "permission": {
+      "parent_permission": {
+        "parent_permission": {
+          "parent_permission": {
+            "parent_permission": {
+              "parent_permission": {
+                "parent_permission": false
+              }
+            }
+          }
+        }
+      }
+    },
+    "type": "Student"
+  },
+  {
+    "name": "Walter",
+    "age": 56,
+    "specialization": "Chemistry",
+    "type": "Teacher"
+  },
+  {
+    "name": "Billy",
+    "age": 9,
+    "permission": {
+      "parent_permission": {
+        "parent_permission": {
+          "parent_permission": {
+            "parent_permission": false
+          }
+        }
+      }
+    },
+    "type": "Student"
+  }
+]
